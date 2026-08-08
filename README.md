@@ -19,3 +19,12 @@ This repository documents my journey of learning Java & Data Structures & Algori
 - [ ] Strings
 - [ ] OOP
 - [ ] DSA
+
+
+## 🚀 Practice Highlights
+
+- Multiplication Table Generator
+- Number Guessing Game
+- ATM Menu
+- Pyramid Pattern
+- Butterfly Pattern
