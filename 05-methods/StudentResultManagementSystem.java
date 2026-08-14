@@ -16,7 +16,7 @@ public class StudentResultManagementSystem{
     
     // calculates the total marks
     static int calculateTotal(int a, int b ,int c, int d,int e ) {
-        int  total =a + b + c + d + e;
+        int  total = a + b + c + d + e;
          return total;
     }
     // calculates the percentage on basis of total outof 500
@@ -64,11 +64,11 @@ public class StudentResultManagementSystem{
         
         int cMarks = getValidMarks(sc, "C");
         
-        int englishMarks= getValidMarks(sc, "English");
+        int englishMarks = getValidMarks(sc, "English");
 
-        int mathsMarks =getValidMarks(sc, "Maths");
+        int mathsMarks = getValidMarks(sc, "Maths");
         
-        int computerMarks =getValidMarks(sc, "Computer");
+        int computerMarks = getValidMarks(sc, "Computer");
 
 
         // to print total by calling total method
