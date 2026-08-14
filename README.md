@@ -14,8 +14,8 @@ This repository documents my journey of learning Java & Data Structures & Algori
 - [X] Operators
 - [X] Conditional Statements
 - [X] Loops
-- [x] Patterns
-- [ ] Methods
+- [X] Patterns
+- [X] Methods
 - [ ] Arrays
 - [ ] Strings
 - [ ] OOP
