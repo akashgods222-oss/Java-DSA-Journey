@@ -70,6 +70,8 @@ public class StudentResultManagementSystem{
         
         int computerMarks = getValidMarks(sc, "Computer");
 
+        System.out.println("Name   :" + name);
+        System.out.println("Roll Number :" + rollNo);
 
         // to print total by calling total method
         int total = calculateTotal(javaMarks, cMarks, englishMarks, mathsMarks, computerMarks);
