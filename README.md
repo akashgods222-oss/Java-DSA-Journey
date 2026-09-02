@@ -17,7 +17,7 @@ This repository documents my journey of learning Java & Data Structures & Algori
 - [X] Patterns
 - [X] Methods
 - [X] Arrays
-- [ ] Strings
+- [X] Strings
 - [ ] OOP
 - [ ] DSA
 
