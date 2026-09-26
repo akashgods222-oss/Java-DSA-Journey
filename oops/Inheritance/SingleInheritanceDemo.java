@@ -9,7 +9,7 @@
          this.salary = salary;
      }
      
-     void displayDetails() {
+    public void displayDetails() {
          System.out.println("Name : " + name);
          System.out.println("Salary : " + "Rs " + salary);
      }
@@ -25,7 +25,7 @@ class Developer extends Employee {
         this.programmingLanguage = programmingLanguage;
     }
     
-    void displayDeveloperInfo() {
+   public void displayDeveloperInfo() {
         displayDetails(); // calling inherited method
         System.out.println("Domain : " + programmingLanguage + " Developer");
     }
