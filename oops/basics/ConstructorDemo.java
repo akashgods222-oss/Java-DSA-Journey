@@ -9,7 +9,7 @@ class Watch {
         this.launchYear = launchYear;
     }
     // Method
-    void displayInfo() {
+  public void displayInfo() {
         System.out.println( brand + " - " + launchYear);
     }
 }
