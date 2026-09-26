@@ -3,7 +3,7 @@ class Car {
     String name;
     int modelNo;
     // method
-    void displayInfo() {
+   public void displayInfo() {
         System.out.println("Name : " + name);
         System.out.println("Model No : " + modelNo);
     }
