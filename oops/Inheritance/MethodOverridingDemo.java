@@ -1,6 +1,6 @@
 // Base bank class
 class Bank {
-    double getInterestRate() {
+   public double getInterestRate() {
         return 0.0;
     }
 }
@@ -8,7 +8,7 @@ class Bank {
 // SBI Child class overriding parent method
 class SBI extends Bank {
     @Override
-    double getInterestRate() {
+    public double getInterestRate() {
         return 7.5;
     }
 }
@@ -16,7 +16,7 @@ class SBI extends Bank {
 // HDFC child class overriding parent method
 class HDFC extends Bank {
     @Override
-    double getInterestRate() {
+   public double getInterestRate() {
         return 12.5;
     }
 }
