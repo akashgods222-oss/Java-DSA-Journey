@@ -1,20 +1,20 @@
 // Base class
 class Vehicle {
-    void engineStarts() {
+    public void engineStarts() {
         System.out.println("Engine Is Starting...");
     }
  }
 
 // Derived class from base class
 class Car extends Vehicle {
-    void drive() {
+  public void drive() {
         System.out.println("Car is driving on road");
     }
 }
 
 //Derived class from car (multilevel)
 class EvCar extends Car {
-    void charging() {
+   public void charging() {
         System.out.println("EV cars battery is charging....");
     }
 }
